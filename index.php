@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Profile Bento</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="styledani.css">
+  </head>
+  <body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="navhome">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="navabout">
+          <a class="nav-link active" href="#about">About Me</a>
+        </li>
+        <li class="navskill">
+          <a class="nav-link active" href="#skill">Skill</a>
+        </li>
+        <li class="navmyhome">
+          <a class="nav-link active" href="#home">My Actual Home</a>
+        </li>
+        <li class="navcon">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Contact Person
+          </a>
+          <ul class="dropdown-menu">
+            <li class="text-center"><a href="mailto:10231062@student.itk.ac.id" target="_blank">Email</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li class="text-center"><a href="https://wa.me/6285191570697" target="_blank" >Whatsapp</a></li>
+            <li class="text-center"><a href="https://www.instagram.com/muhdnii" target="_blank" >Instagram</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section>
+  <div class="container">
+    <div class="profile">
+      <img 
+        class="fotoprofile rounded-circle" 
+        src="profile.jpeg" 
+        alt="">
+    </div>
+    <div class="textprofile mt-2">
+      <h2>Muhammad Dani</h2>
+      <h5>Saya ganteng sekali banyak yang tergila gila dengan saya</h5>
+    </div>
+  </div>
+</section>
+
+<svg 
+  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,192L60,208C120,224,240,256,360,240C480,224,600,160,720,160C840,160,960,224,1080,250.7C1200,277,1320,267,1380,261.3L1440,256L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+</svg>
+
+<section class="Informasi" id="about">
+<div class="card text-bg-dark bg-dark" style="width :20rem;">
+  <img src="fotocard.jpg" class="card-img" alt="...">
+  <div class="card-img-overlay"  style=" background-color: rgba(0, 0, 0, 0.7);" >
+    <h5 class="card-title">Ganteng Kan?</h5>
+    <p class="card-text">Halo kenalin namaku dani panggil aja bento mahasiswa Institut Teknologi Kalimantan Program Studi Sistem Informasi.</p>
+  </div>
+</div>
+</section>
+
+<section style="background-color: #fff;">
+  <div class="row justify-content-center " style="background-color: #fff;">
+    <div class="col-md-10 text-left">
+      <h1 id="skill" class="Skill text-center" style="background-color: white; margin-top: 50px" href="#skill">Statistics about Bento</h1>
+      <h5 class="Skill text-center" style="color: #303030;" >This is more information if u want to confess with me</h5>
+      <p style="margin-top: 10px;">Kegantengan</p>
+      <div class="progress mt-2" role="progressbar" aria-label="Example with label" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar" style="width: 99%">99%</div>
+      </div>
+      <p style="margin-top: 10px;">Kepedean</p>
+      <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar" style="width: 88%">88%</div>
+      </div>
+      <p style="margin-top:10px;">Ketulusan</p>
+      <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar " style="width: 100%">100%</div>
+      </div>
+      <p style="margin-top: 10px;">Ketahanan</p>
+      <div class="progress"  role="progressbar" aria-label="Example with label" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar" style="width: 12%">12%</div>
+      </div>
+    </div>
+  </div>
+  <h2 class="calltext mt-5" style="color: #000; margin-top: 10px; text-align: center;">Call me if you need anything</h2>
+  <div class="container text-center mt-3">
+      <a href="https://www.instagram.com/muhdnii" target="_blank" class="social-icons instagram"><i class="bi bi-instagram"></i> Instagram
+      </a>
+      <a href="https://wa.me/6285191570697" target="_blank" class="social-icons whatsapp"><i class="bi bi-whatsapp"></i>Whatsapp
+      </a>
+  </div>
+</section>
+
+<section>
+<div id="carouselExampleCaptions" class="carousel slide" style="background-color: #fff;">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div id="home" class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="slide1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>INVICTUS 23</h5>
+        <p>Not just about study program, is about home!. and this is my home</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="slide2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>BLAUWRASTEEEEER!!!</h5>
+        <p>uuuuuuuUuUuUuuUUU!!!  sssssssssttt!</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="slide3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>INSPACE 2024</h5>
+        <p>she said "PR GACOR". pffft YES WE ARE!!</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')</script>
+    <script>const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))</script>
+  </body>
+</html>

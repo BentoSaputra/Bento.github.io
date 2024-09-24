@@ -1,0 +1,150 @@
+
+body {
+  background: linear-gradient(white 0%, rgb(185, 185, 185) 10%, rgb(0, 0, 0) 65%, rgb(0, 0, 0) 100%);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.navhome:hover {
+  transform: scale(1.1);
+}
+
+.navabout:hover {
+  transform: scale(1.1);
+}
+
+.navskill:hover {
+  transform: scale(1.1);
+}
+
+.navmyhome:hover {
+  transform: scale(1.1);
+}
+
+.navcon:hover {
+  transform: scale(1.1);
+}
+
+
+.fotoprofile {
+  width: 200px;
+  border: 5px solid #fff;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10%;
+ 
+}
+
+.textprofile {
+  text-align: center;
+  color: white;
+}
+
+.fotoprofile:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+  transition: all 0.3 ease-out; 
+}
+
+.profile h2 {
+  color: white;
+}
+
+.profile h5 {
+  color: rgb(192, 192, 192);
+  transform: translateY(-10px);
+}
+
+svg {
+  width: 100%;
+  height: auto;
+}
+
+.Informasi {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.calltext h2 {
+  display: flex;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  align-items: end;
+  font-size: 15px;
+  margin: 6px;
+  margin-top: -10px;
+  padding: 15px 32px;
+  border-radius: 50px;
+  display: inline-block;
+  transition: color 0.1s ease;
+  color: #000;
+  text-decoration: none;
+}
+
+.social-icons:hover {
+  color: #007bff;
+  transform: scale(1.1); /* Membuat ikon sedikit membesar */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Menambahkan shadow */
+}
+
+.social-icons.instagram { 
+  color: #C13584;
+  background-color: #C13584; /* Background Instagram */
+  color: white; /* Warna ikon putih */ 
+}
+
+.social-icons.whatsapp { 
+  color: #25D366;
+  background-color: #128C7E; /* Background Instagram */
+  color: white; /* Warna ikon putih */ 
+}
+
+.social-icons.instagram:hover { 
+  color: #d86a8f;
+  background-color: #E1306C; 
+}
+
+.social-icons.whatsapp:hover { 
+  color: #36aea0;
+  background-color: #128C7E; 
+}
+
+.social-icons i {
+  margin-right: 10px; /* Jarak antara ikon dan teks */
+}
+
+.skill {
+  background-color: white;
+}
+
+.progress {
+  border-radius: 10px;
+  height: 20px;
+  background-color: #cbcbcb;
+}
+
+.progress-bar {
+  border-radius: 10px;
+}
+
+.carousel-inner h5, p {
+  color: #ffffff;
+  text-shadow: 0px 100px 100px rgba(255, 255, 255, 0.1);
+}
+
+.carousel-item img {
+  max-width: 100%;
+  height: auto;
+}
